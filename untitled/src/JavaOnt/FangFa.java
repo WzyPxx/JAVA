@@ -4,11 +4,7 @@ import java.util.Scanner;
 
 public class FangFa {
     public static void main(String[] args) {
-        int[] a  = {12,18,16,23,28,32,47,1};
-        int[] b = new int[4];
-        int[] c = {12,18,16,23,28,32,47,1};
-        System.out.println(towArray(a,b));
-
+        chushu(10,0);
     }
     /*
      标准格式方法
@@ -96,5 +92,28 @@ public class FangFa {
         }else {
         return false;
         }
+    }
+
+    /*
+       方法的重载
+    */
+    public static void file(){
+        System.out.println("武器发射");
+    }
+    public static void file(String a){
+        System.out.println(a+"发射武器");
+    }
+    public static void file(String a,int b){
+        System.out.println(a+"发射"+b+"武器");
+    }
+    /*
+      return关键字
+    */
+    public static void chushu(int a,int b){
+        if (b == 0){
+            return;
+        }
+        int c = a/b;
+        System.out.println(c);
     }
 }
