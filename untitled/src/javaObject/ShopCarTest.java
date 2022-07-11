@@ -38,12 +38,12 @@ public class ShopCarTest {
                     //结算商品方法
                     payGoods(shopCar);
                     zhenjia = false;
-                    System.out.println("欢迎下次光临~~~~~`");
+                    System.out.println("~~~~~欢迎下次光临~~~~~");
                     break;
                 case "jiesu":
                     //结束程序
                         zhenjia = false;
-                        System.out.println("欢迎下次光临~~~~~`");
+                        System.out.println("~~~~~欢迎下次光临~~~~~`");
                     break;
                 default:
                     System.out.println("命令错误，请检查！");
@@ -100,8 +100,8 @@ public class ShopCarTest {
                     break;
                 }
             }
-
         }
+        System.out.println("======================================");
     }
     //修改商品方法
     public static void updateGoods(Goods[] shopCar,Scanner scanner) {
