@@ -1,6 +1,6 @@
-package javaObject;
+package javaObject.DingYiClass;
 
-import javaObject.ObjectOriented;
+import javaObject.DingYiClass.ObjectOriented;
 
 public class TheCallingObject {
     public static void main(String[] args) {

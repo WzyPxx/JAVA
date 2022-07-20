@@ -1,4 +1,4 @@
-package javaObject;
+package javaObject.DingYiClass;
 
 
 //定义使用的类

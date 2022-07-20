@@ -1,4 +1,4 @@
-package javaObject;
+package javaObject.DingYiClass;
 
 public class Goods {
     int id;   //编号

@@ -1,4 +1,6 @@
-package javaObject;
+package javaObject.DingYiClass;
+
+import javaObject.DingYiClass.Goods;
 
 import java.util.Scanner;
 
@@ -52,9 +54,6 @@ public class ShopCarTest {
 
         }
     }
-
-
-
     //添加商品方法
     public static void addGoods(Goods[] shopCar,Scanner scanner) {
         //1.录入商品
